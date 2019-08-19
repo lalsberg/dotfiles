@@ -10,6 +10,8 @@
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="simple"
 
+[[ -s ~/.zsh_aliases ]] && source ~/.zsh_aliases
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of

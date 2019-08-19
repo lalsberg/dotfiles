@@ -1,0 +1,8 @@
+alias rehash="source ~/.zshrc"
+alias pl="ps aux | grep"
+alias u="cd .."
+alias uu="cd ../.."
+alias uuu="cd ../../.."
+alias uuuu="cd ../../../.."
+alias uuuuu="cd ../../../../.."
+alias sublime="subl"
