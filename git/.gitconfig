@@ -30,9 +30,9 @@
   co = checkout
   df = diff -b
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date=relative
+  lgt = log --graph --pretty=format:'%Cred%h%Creset - %ad - %C(yellow)%d%Creset %s %Cgreen(%an, %cr)%Creset' --abbrev-commit --date=short
   rclone = clone --reference /git/cache.git/
   ph = push origin HEAD
-  pheroku = push heroku HEAD
 
   last  = cat-file commit HEAD
   sta    = ls-files --exclude-per-directory=.gitignore \
